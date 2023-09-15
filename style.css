@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.amma
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0,.75),rgba(0,0,0,0,.75));
+    background: url(img/sRlP2Y.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 190px;
+    cursor: pointer;
+    background-color: #77777717;
+}
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li a::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: blue ;
+    text-decoration: underline;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::before
+{
+    width: 100vh;
+}
+.boxcontainer
+{
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border-radius: 4px solid #0296f8;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+.elementscontainer
+{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search
+{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #020202;
+    font-weight: 500px;
+}
+.search:focus
+{
+    outline: none;
+}
+.material-icons
+{
+    font-size: 26px;
+    color: #2980b9;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: rotateY(-50%);
+    text-align: center;
+    color: #0498fa;
+}
+.content h1
+{
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content p
+{
+    margin: 10px auto;
+    font-weight: 50;
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #d8fd04;
+}
+button
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #8e8f8f57;
+    background: transparent;
+    color: #fc0303;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+marquee
+{
+    background-color: #68676760;
+}
+/* marquee
+{
+    background: url(img/marquee.png);
+    width: 50%;
+    height: 30%;
+} */
